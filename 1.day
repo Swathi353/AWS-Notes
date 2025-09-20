@@ -1,2 +1,5 @@
 AWS CLI-
 when we install aws cli on our mac or windows to check if it is installed in cmd type "aws --version" .
+
+AWS cloudshell-
+all the files uploaded or whatever donw will be saved even after turning all off /pc off /log out and again looking at it next day you'll see everything as before.
