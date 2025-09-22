@@ -16,3 +16,6 @@ one security group can be attached to multiple instances and also one instance c
 
 SSH instance connect:
 only works for amazon linux 2
+
+SSH does not work on Windows
+If it says: ssh command not found, that means you have to use Putty
