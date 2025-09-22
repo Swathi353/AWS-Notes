@@ -6,5 +6,7 @@ alternate to aws cli within aws.
 all the files uploaded or whatever donw will be saved even after turning all off /pc off /log out and again looking at it next day you'll see everything as before.
 can download/upload files into cloudshell.
 
+key-pair:
+we use keypair to  login the ec2 instance using cmd
 while creating an ec2 instance we generate key pair use REM encrytion and = there use .pem for Linux| Mac |W=10
 use .ppk for W<10
