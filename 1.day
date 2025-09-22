@@ -10,3 +10,6 @@ key-pair:
 we use keypair to  login the ec2 instance using cmd
 while creating an ec2 instance we generate key pair use REM encrytion and = there use .pem for Linux| Mac |W=10
 use .ppk for W<10
+
+security group:
+one security group can be attached to multiple instances and also one instance can also have multiple security groups attached to it.
