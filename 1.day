@@ -14,8 +14,15 @@ use .ppk for W<10
 security group:
 one security group can be attached to multiple instances and also one instance can also have multiple security groups attached to it.
 
+EC2 connect:
+is a browser based ssh.
+there is no need to upload any key file bcoz internally browser automatically uploads it on our behalf.
+
 SSH instance connect:
 only works for amazon linux 2
 
+IAM roles:
+do no assign roles through ssh bco it will ask you for your acc credentials and any user on your acc can see these credentials on your account ,
+always assign permission to ingtsnace through iam roles only.
 SSH does not work on Windows
 If it says: ssh command not found, that means you have to use Putty
