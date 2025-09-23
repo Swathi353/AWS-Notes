@@ -3,7 +3,8 @@ when we install aws cli on our mac or windows to check if it is installed in cmd
 
 AWS cloudshell-
 alternate to aws cli within aws.
-all the files uploaded or whatever donw will be saved even after turning all off /pc off /log out and again looking at it next day you'll see everything as before.
+all the files uploaded or whatever donw will be saved even after turning all off /pc off /log out and again looking at 
+it next day you'll see everything as before.
 can download/upload files into cloudshell.
 
 key-pair:
@@ -22,7 +23,12 @@ SSH instance connect:
 only works for amazon linux 2
 
 IAM roles:
-do no assign roles through ssh bco it will ask you for your acc credentials and any user on your acc can see these credentials on your account ,
+do no assign roles through ssh/instance connect bcoz it will ask you for your acc credentials and any user on your acc can see 
+these credentials on your account ,
 always assign permission to ingtsnace through iam roles only.
 SSH does not work on Windows
 If it says: ssh command not found, that means you have to use Putty
+
+how to terminate spot instances:
+first cancel spot request then terminate instances, dont terminate instances 
+then cancel request because if terminated it will see valid from and upto and again generates new intsnaces to match demand. 
