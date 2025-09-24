@@ -27,6 +27,11 @@ do no assign roles through ssh/instance connect bcoz it will ask you for your ac
 these credentials on your account ,
 always assign permission to ingtsnace through iam roles only.
 SSH does not work on Windows
+
+Elastic IP:
+to ssh into our ec2 machine we cant do it using private ip and needs public ip but if we stop start instance public ip changes.
+so we use elstic ip. it assigns same ip to public and elastic , elastic ip is a kind of public ipv4 only. 
+you can ssh using elastic ip also.
 If it says: ssh command not found, that means you have to use Putty
 
 how to terminate spot instances:
