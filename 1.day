@@ -37,3 +37,10 @@ If it says: ssh command not found, that means you have to use Putty
 how to terminate spot instances:
 first cancel spot request then terminate instances, dont terminate instances 
 then cancel request because if terminated it will see valid from and upto and again generates new intsnaces to match demand. 
+
+Eni are bound to AZ:
+bound to AZ means that eni created in one AZ is available in that AZ only, in other AZ it will not be available.
+
+everytime we create an EC2 instances it will have an ENI/ network interface attached to it which consists of ENI id, private ip, oublic ip
+
+can create one separate eni and attach it to instance, then instance will have one defaullt eni and one seconndary eni(we created).
